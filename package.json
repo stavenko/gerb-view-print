@@ -1,0 +1,34 @@
+{
+  "name": "gerbv-view",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "esm": "^3.2.25",
+    "gerber-to-svg": "^4.2.1",
+    "jss": "^10.1.1",
+    "object-assign": "^4.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-jss": "^10.1.1",
+    "react-redux": "^7.2.0",
+    "ts-node": "^8.10.1",
+    "typesafe-actions": "^5.1.0"
+  },
+  "devDependencies": {
+    "@fimbul/wotan": "^0.21.1",
+    "@types/html-webpack-plugin": "^3.2.3",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

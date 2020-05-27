@@ -1,0 +1,6 @@
+{
+  "extends": "./base.ts-config.json",
+  "files": ["webpack.config.ts"],
+  "include": ["./src"],
+  "exclude": ["node_modules", "build"]
+}

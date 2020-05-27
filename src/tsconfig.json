@@ -1,0 +1,7 @@
+{
+  "extends": "../base.ts-config.json",
+  "compilerOptions": {
+    "outDir": "../build",
+    "lib": ["DOM", "ESNext"]
+  }
+}
